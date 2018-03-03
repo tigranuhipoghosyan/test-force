@@ -1,4 +1,5 @@
 # GTU 03
+## wrappers and strict mode
 
 #### 1. wrappers
 
