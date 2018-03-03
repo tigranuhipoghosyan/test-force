@@ -8,3 +8,5 @@ then test the examples in an environment and try to understand the
 result even if your guessed result doesn't differ from test result.
 
 #### good look ;)
+
+[gtu-01](./gtu-01)
