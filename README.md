@@ -9,4 +9,5 @@ result even if your guessed result doesn't differ from test result.
 
 #### good look ;)
 
-[gtu-01](./gtu-01)
+* [gtu-01](./gtu-01)
+* [gtu-02](./gtu-02)
