@@ -61,7 +61,7 @@ and suppose that `f` isn't declared
   26. `5 + a + b + c + d + e + f`
   27. `'hello' + NaN`
   28. `'hello' + a + b + c + d + e + f`
-  
+
 * try the same also for binary `-`, `*`, `/`, `%`, `|`, `&`, `^`, `<<`, `>>`, `>>>`,
  `==`, `===`, `<`, `>`, `>=`, `<=` operators
  as you did for binary `+` operator
@@ -83,21 +83,20 @@ and suppose that `f` isn't declared
   14. `-([2, 3])`
   15. `-(function() { })`
   16. `-(a)` // test the same also for b, c, d, e and f
-  
+
 * try the same also for both postfix and prefix `++` and `--` operators
  as you did for unary `-` operator
- 
+
 * postfix and prefix `++` & `--` operators
   1. for each one of `a`, `b`, `c`, `d`, `e`, `f` try the following
     `console.log(a, a++, a);` & `console.log(a, ++a, a);`
   2. do the same also for `--` operator
-  
+
 * `%` operator
   1. `234 % 2`
   2. `234 % 3`
   3. `23.23 % 2 === 1.23`
   4. `234.23 % 2.223`
-
 
 * try the same also for `~`, `!`, `typeof`, `void` operators
  as you did for unary `-` operator
@@ -106,7 +105,7 @@ and suppose that `f` isn't declared
   1. `1 ? 234 : 32`
   2. for each one of `a`, `b`, `c`, `d`, `e`, `f` try the following
     `a[a.hasOwnProperty('valueOf') ? 'valueOf' : 'toString']()`
-    
+
 * `instanceof` operator
   1. `null instanceof Object`
   2. `true instanceof Boolean`
@@ -122,7 +121,7 @@ and suppose that `f` isn't declared
   12. `/hello/img instanceof RegExp`
   13. `/hello/img instanceof Function`
   14. `/hello/img instanceof Object`
-  
+
 * `in` operator
   1. `'valueOf' in null`
   2. `'valueOf' in undefined`
@@ -135,7 +134,7 @@ and suppose that `f` isn't declared
   9. `'toString' in a` // try the same also for b, c, d, e and f
   10. `'call' in ({})`
   11. `'call' in (function () { })`
-  
+
 * `delete` operator
   1. `delete ({}).valueOf`
   2. `delete 1`
@@ -147,7 +146,3 @@ and suppose that `f` isn't declared
   8. `delete z`
   9. `var x = 3; console.log(delete x); console.log(x);`
   10. `y = 4; console.log(delete y); console.log(y);`
-
-
-
-
